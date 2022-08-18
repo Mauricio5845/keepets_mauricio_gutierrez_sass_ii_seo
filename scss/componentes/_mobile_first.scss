@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.logo{
+    width: 75%;
+}
+.carousel-item{
+    @include carrusel(50%,200px);
+    
+    img{
+        @include imagen(100%,100%);
+    }
+}
